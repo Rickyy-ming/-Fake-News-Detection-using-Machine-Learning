@@ -66,6 +66,7 @@ The model can help media companies, fact-checkers, and online platforms automate
 
 ⸻
 🧠 Future Enhancements
+
 	•	Incorporate deep learning models like LSTM or BERT
 	•	Use real-time news scraping for live inference
 	•	Improve model interpretability using SHAP or LIME
@@ -74,6 +75,7 @@ The model can help media companies, fact-checkers, and online platforms automate
 ⸻
 
 📊 Sample Insights
+
 	•	Word frequency visualizations show fake news often uses sensational terms like “shocking”, “truth”, or “exposed”.
 	•	Passive Aggressive Classifier achieved ~94% accuracy on validation data.
 	•	TF-IDF vectorization significantly improves performance over raw text.
