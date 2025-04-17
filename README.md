@@ -11,12 +11,14 @@ The model can help media companies, fact-checkers, and online platforms automate
 ⸻
 
 🎯 Objectives
+
 	•	Clean, explore, and transform raw news datasets.
 	•	Understand linguistic differences between fake and real news.
 	•	Develop and evaluate text classification models.
 	•	Provide a reproducible NLP pipeline that can be extended or deployed in real-world applications (e.g., content moderation, news aggregation, risk analysis).
 
  💡 Value Proposition
+ 
 	•	🌐 Practical Relevance: Fake news detection has wide applications in journalism, cybersecurity, education, and AI ethics.
 	•	🛡️ Social Impact: This model can help mitigate the spread of misinformation, especially during elections, pandemics, or global crises.
 	•	🤖 AI Application: Demonstrates your ability to build scalable and interpretable NLP models, a key skill for roles in data science, machine learning, and applied AI.
@@ -26,12 +28,14 @@ The model can help media companies, fact-checkers, and online platforms automate
 🧪 Techniques Used
 
 📊 Data Processing
+
 	•	Combined two labeled datasets: Fake.csv and True.csv
 	•	Merged, cleaned, and labeled data into a single structured dataset
 	•	Removed punctuation, stopwords, and special characters
 	•	Lowercased and tokenized text
 
 📚 Natural Language Processing (NLP)
+
 	•	TF-IDF (Term Frequency–Inverse Document Frequency):
 	•	Converts unstructured text into a sparse matrix of weighted word frequencies.
 	•	Helps in identifying important, non-common terms for classification.
@@ -41,6 +45,7 @@ The model can help media companies, fact-checkers, and online platforms automate
 	•	Tokenization and whitespace trimming
 
 🤖 Machine Learning Models
+
 	•	Passive Aggressive Classifier:
 	•	Particularly effective for large-scale text classification
 	•	Online learning (adapts with each batch of training)
@@ -58,6 +63,7 @@ The model can help media companies, fact-checkers, and online platforms automate
 
 
 📊 Key Features
+
 	•	Visualizes word distributions in fake and real news
 	•	Implements multiple models for comparison
 	•	Uses TF-IDF features for text vectorization
